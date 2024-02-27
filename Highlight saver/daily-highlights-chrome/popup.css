@@ -1,0 +1,38 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Nicer font */
+    color: #333; /* Dark grey text */
+    margin: 10px;
+    width: 180px;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+h1 {
+    font-size: 18px; /* Slightly larger */
+    margin: 0;
+    margin-bottom: 15px; /* More space below the header */
+    color: #1a1a1a; /* Even darker for the heading */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #b19cd9; /* Pastel purple background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.1s; /* Smooth transition for hover and active states */
+}
+
+button:hover {
+    background-color: #a18bcf; /* Slightly darker purple on hover */
+}
+
+button:active {
+    background-color: #927ead; /* Even darker purple for click effect */
+    transform: scale(0.98); /* Slightly scale down the button when clicked */
+}
