@@ -70,7 +70,7 @@ function appendTextToFile(text, url, dirPath, includeLink) {
             // File doesn't exist or other read error, create a new file
             let contentToWrite = `${highlightsHeader}\n\n${text}\n\n`;
             if (includeLink) {
-                contentToWrite += `${url}\n\n`;
+                contentToWrite += `\n\n`;
             }
             fs.writeFile(filePath, contentToWrite, (writeErr) => {
                 if (writeErr) throw writeErr;
